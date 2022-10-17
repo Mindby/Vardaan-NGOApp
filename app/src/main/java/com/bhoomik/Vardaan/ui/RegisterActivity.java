@@ -210,6 +210,7 @@ public class RegisterActivity extends AppCompatActivity {
                                             if ((response).equals("Success")) {
                                                 ////here cloud firestore registration is reqiured
                                                 Snackbar.make(linearLayout, "सफलतापूर्वक किया गया", Snackbar.LENGTH_LONG).show();
+                                                finish();
 //                                                PersonDetails personDetails = new PersonDetails(
 //                                                        rname,
 //                                                        rmobile,
@@ -302,7 +303,7 @@ public class RegisterActivity extends AppCompatActivity {
                                                 startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
                                             } else{
                                                 RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
-                                                requestQueue.add(stringRequest);
+                                                    requestQueue.add(stringRequest);
                                             }
                                         }
                                     }
