@@ -13,7 +13,6 @@ public class Constants {
     public static class Register{
 
        public static String Register_Url = "https://script.google.com/macros/s/AKfycbwVxNVXGxEiikvtPDa9Co8LNmtsUhXWHV0La2hc_07c7Rzz3Dbny2I4QzCudBJTWAKFtA/exec?action=insert";
-       // public static String Register_Url = "https://enra2ymzqt7ja.x.pipedream.net/";
         public static final String ADD_USER_URL = Register_Url;
         public static final String KEY_LOST_IMAGE = "uImage";
         //public static final String KEY_LIST_IMAGE = "uImageList";
